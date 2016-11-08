@@ -9,7 +9,7 @@ CC = gcc
 COMPILER_FLAGS = -w
 
 #Set libraries to link against
-LINKER_FLAGS = -lSDL2
+LINKER_FLAGS = -lSDL2 -lSDL2_image
 
 #Excecutable
 OBJ_NAME = game 
